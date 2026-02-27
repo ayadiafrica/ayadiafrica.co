@@ -95,3 +95,20 @@ footer p {
   margin: 6px 0;
   font-size: 14px;
 }
+/* FIX TEXT WIDTH & MARGINS */
+
+.section {
+  padding: 80px 20px;
+}
+
+.section p,
+.section ul {
+  max-width: 900px;
+  margin: 0 auto 20px auto;
+}
+
+.section h2,
+.section h3 {
+  max-width: 900px;
+  margin: 0 auto 20px auto;
+}
