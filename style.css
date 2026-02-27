@@ -129,3 +129,16 @@ footer {
 #about li {
   margin-bottom: 10px;
 }
+/* ===== FORCE ABOUT FULL WIDTH ===== */
+
+#about.section {
+  display: block !important;
+  width: 100% !important;
+  max-width: 1000px !important;
+  margin: 60px auto !important;
+}
+
+#about p,
+#about ul {
+  width: 100% !important;
+}
