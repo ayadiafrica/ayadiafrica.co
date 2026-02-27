@@ -103,3 +103,29 @@ footer {
   text-align: center;
   padding: 20px;
 }
+/* ===== ABOUT SECTION FIX ===== */
+
+#about {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+#about h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#about h3 {
+  margin-top: 25px;
+  color: #0b6b3a;
+}
+
+#about ul {
+  margin-top: 15px;
+  padding-left: 20px;
+}
+
+#about li {
+  margin-bottom: 10px;
+}
