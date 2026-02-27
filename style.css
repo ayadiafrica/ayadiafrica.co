@@ -103,30 +103,25 @@ footer {
   text-align: center;
   padding: 20px;
 }
-/* ===== ABOUT SECTION FIX ===== */
+/* ===== FIX ABOUT SECTION ALIGNMENT ===== */
 
 #about {
-  max-width: 900px;
+  padding: 80px 20px;
+  background: #f9f9f9;
+}
+
+#about .container {
+  max-width: 1000px;
   margin: 0 auto;
-  text-align: left;
+  padding: 0 20px;
 }
 
 #about h2 {
-  text-align: center;
-  margin-bottom: 30px;
+  text-align: left;
+  margin-bottom: 20px;
 }
 
-#about h3 {
-  margin-top: 25px;
-  color: #0b6b3a;
+#about p {
+  line-height: 1.8;
+  text-align: left;
 }
-
-#about ul {
-  margin-top: 15px;
-  padding-left: 20px;
-}
-
-#about li {
-  margin-bottom: 10px;
-}
-
