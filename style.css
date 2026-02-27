@@ -103,28 +103,6 @@ footer {
   text-align: center;
   padding: 20px;
 }
-/* ===== FIX ABOUT SECTION ALIGNMENT ===== */
-
-#about {
-  padding: 80px 20px;
-  background: #f9f9f9;
-}
-
-#about .container {
-  max-width: 1000px;
-  margin: 0 auto;
-  padding: 0 20px;
-}
-
-#about h2 {
-  text-align: left;
-  margin-bottom: 20px;
-}
-
-#about p {
-  line-height: 1.8;
-  text-align: left;
-}
 /* ===== FORCE ABOUT FULL WIDTH ===== */
 
 #about.section {
