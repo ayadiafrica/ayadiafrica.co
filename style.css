@@ -112,3 +112,43 @@ footer p {
   max-width: 900px;
   margin: 0 auto 20px auto;
 }
+/* ===== NEWS SECTION ===== */
+
+.news-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.news-card {
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.news-card:hover {
+  transform: translateY(-5px);
+}
+
+.news-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.news-card h3 {
+  padding: 15px 20px 0 20px;
+}
+
+.news-card .date {
+  padding: 0 20px;
+  font-size: 14px;
+  color: #777;
+}
+
+.news-card p {
+  padding: 10px 20px 20px 20px;
+}
