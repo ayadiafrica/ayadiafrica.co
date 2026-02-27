@@ -1,0 +1,105 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+header {
+  background: #0d47a1;
+  color: white;
+  padding: 15px 0;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+.logo {
+  font-weight: bold;
+}
+
+.hero {
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+  url('https://images.unsplash.com/photo-1605733513597-a8f8341084e6');
+  background-size: cover;
+  color: white;
+  text-align: center;
+  padding: 120px 20px;
+}
+
+.hero h2 {
+  max-width: 800px;
+  margin: auto;
+}
+
+.section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.light {
+  background: #f4f4f4;
+}
+
+.grid {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.card, .impact-box {
+  background: white;
+  padding: 25px;
+  width: 250px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.impact-box h3 {
+  color: #1b5e20;
+  font-size: 28px;
+}
+
+.btn-primary {
+  background: #1b5e20;
+  color: white;
+  padding: 12px 25px;
+  text-decoration: none;
+  margin-top: 15px;
+  display: inline-block;
+}
+
+.btn-secondary {
+  background: #0d47a1;
+  color: white;
+  padding: 12px 25px;
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+.btn-small {
+  background: #1b5e20;
+  padding: 6px 12px;
+}
+
+.donate {
+  background: #1b5e20;
+  color: white;
+}
+
+footer {
+  background: #0d47a1;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
