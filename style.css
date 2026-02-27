@@ -103,13 +103,31 @@ footer {
   text-align: center;
   padding: 20px;
 }
-/* ===== FORCE ABOUT FULL WIDTH ===== */
+/* ===== ABOUT SECTION FIX ===== */
 
-#about.section {
-  display: block !important;
-  width: 100% !important;
-  max-width: 1000px !important;
-  margin: 60px auto !important;
+#about {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+#about h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#about h3 {
+  margin-top: 25px;
+  color: #0b6b3a;
+}
+
+#about ul {
+  margin-top: 15px;
+  padding-left: 20px;
+}
+
+#about li {
+  margin-bottom: 10px;
 }
 
 #about p,
